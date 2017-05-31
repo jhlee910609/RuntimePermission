@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.junhee.android.runtimepermission">
 
+
+    // 인터넷을 사용하기 위해서는 설치 시에 하는 '일반 퍼미션 설정'을 해줘야함
+    // 런타임 퍼미션은 아님
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">RuntimePermission</string>
+
+    <string name="app_name">Runtime Permission</string>
+    <string name="back"> &lt; </string> <!-- less than -->
+    <string name="front"> &gt; </string> <!-- greater than-->
+
 </resources>
