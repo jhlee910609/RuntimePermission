@@ -8,6 +8,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -48,8 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void loadUrl(String url) {
         // 문자열의 앞에 프로토콜인 http 문자열이 없다면 붙혀준다.
-        if (!url.startsWith("http://")) {
+        if (!url.startsWith("http")) {
             // url 호출하기
+            url = "http://" + url;
             webView.loadUrl("http://naver.com");
         }
     }
@@ -59,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btnBack:
                 // 뒤로 갈 곳이 있는지 체크
-                if(webView.canGoBack()){
+                if (webView.canGoBack()) {
                     webView.goBack();
                 }
 
@@ -68,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btnFront:
                 // 앞으로 갈 곳이 있는지 체크
-                if(webView.canGoForward()){
+                if (webView.canGoForward()) {
                     webView.goForward();
                 }
 
@@ -76,13 +78,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btnGo:
                 String url = editText.getText().toString();
-                if (!"".equals(url)) {    // 공백이 아닐 경우만 처리
-                                          // or 정규식으로 url 패턴일때만 처리
-                                          //
-                    loadUrl(url);
+                if (!"".equals(url)) {
+                    if (url.matches("^(www.)?([a-zA-Z0-9]+).[a-zA-Z0-9]*.[a-z]{3}.?([a-z]+)?$")) {
+                        // 공백이 아닐 경우만 처리
+                        // or 정규식으로 url 패턴일때만 처리
+                        loadUrl(url);
+                    } else {
+                        Toast.makeText(this, "url이 잘못되었습니다.", Toast.LENGTH_SHORT).show();
+                    }
                 }
                 break;
-
         }
 
     }
