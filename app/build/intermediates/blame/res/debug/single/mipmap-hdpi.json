@@ -4,6 +4,14 @@
         "source": "/Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/JunHee/AndroidStudioProjects/WebView/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/JunHee/AndroidStudioProjects/WebView/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/JunHee/AndroidStudioProjects/WebView/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/JunHee/AndroidStudioProjects/WebView/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/JunHee/AndroidStudioProjects/RuntimePermission/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }

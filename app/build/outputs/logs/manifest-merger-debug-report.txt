@@ -1,24 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:3:5-51
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:8:5-10:23
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:8:5-10:23
 	android:name
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:12:5-26:19
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:12:5-26:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/JunHee/.android/build-cache/2243c2ad72f1b32ca17021d2c43ae1c850483b89/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/JunHee/.android/build-cache/3c6dc745f02ef9765f1410028065de617a440a95/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/JunHee/.android/build-cache/b5abe0423a8c0460ba4b3f2b4b8178d05ff7578c/output/AndroidManifest.xml:29:5-20
@@ -30,33 +30,33 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/JunHee/.
 MERGED from [com.android.support:support-compat:25.3.1] /Users/JunHee/.android/build-cache/a0362311fd7a72ed3b05ad91b9786719ef550c39/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/JunHee/.android/build-cache/cc7f58883b984b5e036d2b9d7543d884c6b99b6a/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:15:9-41
 	android:supportsRtl
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:17:9-35
 	android:roundIcon
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:16:9-54
 	android:allowBackup
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:14:9-43
 	android:theme
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:18:9-40
 activity#com.junhee.android.runtimepermission.MainActivity
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:19:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/JunHee/.android/build-cache/2243c2ad72f1b32ca17021d2c43ae1c850483b89/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] /Users/JunHee/.android/build-cache/3c6dc745f02ef9765f1410028065de617a440a95/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/JunHee/.android/build-cache/b5abe0423a8c0460ba4b3f2b4b8178d05ff7578c/output/AndroidManifest.xml:21:5-23:60
@@ -70,11 +70,11 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/JunH
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/JunHee/.android/build-cache/2243c2ad72f1b32ca17021d2c43ae1c850483b89/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/JunHee/AndroidStudioProjects/RuntimePermission/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JunHee/AndroidStudioProjects/WebView/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/JunHee/.android/build-cache/2243c2ad72f1b32ca17021d2c43ae1c850483b89/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/JunHee/.android/build-cache/3c6dc745f02ef9765f1410028065de617a440a95/output/AndroidManifest.xml:25:5-27:34
